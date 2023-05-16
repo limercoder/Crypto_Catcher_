@@ -28,7 +28,7 @@ while True:
         _sell = (priceK / 100) * 3
         sell_price = priceK - _sell
         api = "6451388e80512e00018c14aa"
-        secret = "1baf22ead-15fd-4d1f-a8d6-a313546af8791"
+        secret = ""
         password = ""
         kucoin.apiKey = api
         kucoin.secret = secret
@@ -54,8 +54,8 @@ while True:
 
         print("[+]Price going down fixing profit")
         api = "63d6d0d912de5c0001297013"
-        secret = "859d395e-e462-4cf7-a897-ef459f549d30"
-        password = "1Qaz123ws1"
+        secret = ""
+        password = ""
         kucoin.apiKey = api
         kucoin.secret = secret
         kucoin.password = password
